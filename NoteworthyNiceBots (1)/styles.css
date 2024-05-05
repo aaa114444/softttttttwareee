@@ -1,0 +1,94 @@
+body {
+  padding: 25px;
+}
+
+.title {
+  color: #5C6AC4;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  backgrounf-image: linear-gradient(to right, #FFFFFF, #FFFFFF)
+}
+
+.navbar-brand img {
+  width: 120px;
+  /* Adjust the width to your desired size */
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #000000 important;
+  font-weight: 600;
+}
+
+.navbar-nav li a {
+  float: right;
+
+}
+
+.container {
+  display: flex; /* Use Flexbox */
+    justify-content: flex-start; /* Align to the left */
+    align-items: flex-start; /* Align items at the start vertically */
+    padding: 20px; /* Add padding around the content */
+    color: #FFFFFF; /* White text color */
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+  }
+
+.text-box {
+  max-width: 600px; /* Maximum width of the text box */
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  padding: 20px; /* Padding inside the text box */
+  margin-right: auto; /* Ensure it sticks to the left */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Background image for About and Contact pages */
+body {
+  background-image: url('https://helios-i.mashable.com/imagery/articles/01AiKvcJ9wnEx33v4yqN3l9/images-1.fill.size_2000x1125.v1707306318.jpg');
+  /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Video background styles for Login page */
+.video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-background video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
